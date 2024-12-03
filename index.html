@@ -1,0 +1,299 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodie</title>
+    <style>
+            .navbar{
+                 /* border: 1px solid blue; */
+                 width: 100%;
+                 height: 100px;
+                 background-color: rgb(207, 218, 218); 
+                 display: inline-block; }
+                 .navbar:hover{
+                    background-color: #f30c0c;
+                    text-decoration: underline;
+                 }
+        h1{
+        /* background-color: rgb(13, 173, 173); */ 
+             width: 300px; padding: 10px;
+             display: inline-block;
+          }
+
+    li{
+        width: 200px; 
+        height: 50px;
+         padding:10px; 
+         /* text-decoration-color: rgb(248, 85, 9);
+        -webkit-text-fill-color: azure; */ }
+
+        li:hover, h1:hover{color: rgb(255, 5, 17);
+        font-size: 24px;}
+        h3{color: chartreuse;}
+
+   h3,h1,ul,li{ display: inline-block; }
+    .btn
+    {      float: right;
+           width: 200px;
+           height: 50px;
+           border-radius: 10px;
+           background-color: rgb(170, 238, 12);
+           padding: 10px;
+           margin: 20px;
+        }
+
+          .btn:hover {
+               color: #ff0000;
+             font-size: 22px;
+            }
+   
+         .btn:active{ background-color: beige;}
+         .top{ 
+         width: 100%;
+         height: 350px;
+         background-repeat: no-repeat; background-size: cover;
+             background-image:url(images/food1a.png);
+             display: inline-block; 
+             position: relative;}
+
+         /* .center {
+             position: absolute;
+             top: 100px;
+             width: 100%;
+             text-align: center;
+             font-size: 38px;
+            margin-top: 20px;} */
+
+         .take {
+              position: absolute;
+             top: 220px;
+             width: 100%;
+             text-align: center;
+             font-size: 18px;}
+         p{line-height: 0px;text-align: center;}   
+
+         p.flv{color: rgb(17, 247, 9);
+             font-family: 'Times New Roman', Times, serif;
+             font-size: 48px;}
+         span{color: rgb(248, 224, 5);
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              font-size: 32px;
+            inline-size: none;}
+
+         .away{background-color: brown;}
+              
+         .din{background-color: aliceblue;}
+
+         .form-container{
+            position: absolute;
+             top: 70%;
+             width: 100%;
+             text-align:center;}
+
+             .boxes{ width: 50%;
+                     margin-left: 300px; margin-top: 20px;
+                    /* border: 1px solid bisque;*/}
+         .boxA {
+             position: relative; 
+             width: 300px;
+             height: 300px;
+             background-image: url(images/food3.jpg);}
+            
+         .boxB {
+              position: absolute;
+              top: 150px;
+              left: 155px;
+              width: 450px;
+              height: 150px;
+              background-color: rgb(240, 139, 57);
+              
+            }
+         p.fbk{text-align: center;
+              font-size: 18px; 
+             font-family: Arial, Helvetica, sans-serif;
+             color: #f30c0c;}
+
+         p.feed{text-align: center;
+             font-size: 14px;
+             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+             color: #c2eb0c;}
+
+         p.fdbk{text-align: center;
+              font-size: medium;
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             color: beige;}
+
+         #ffbk{width: 120px;background-color: tomato;border-style: hidden;text-align: center;margin-left: 100px;}
+
+         #ffbk:hover {
+             color: #ff0000;
+             font-size: 18px;}
+
+             #cardB {
+            width: 90%;
+            height: 300px;
+            /* text-align: center; */
+            display: flex;
+            align-items: flex-start;
+            /* border: 1px solid rgb(245, 6, 6); */
+        }
+        #td {
+            width: 30%;
+            height: 200px;
+            /* display: inline-block; */
+            /* border: 1px solid black; */
+            text-align: center;
+            /* gap: 200px; */
+            /* margin: 65px 5px;
+            margin-top: opx; */
+            margin: auto;
+            background-color: #c2eb0c;
+            /* border: 2px solid red; */
+        }
+        #td:hover{ 
+            background-color: aqua;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+        }
+        img{width: 50px;
+             height: 50px; 
+             padding: 10px;
+            position: relative;
+            margin-right: 100px;
+        }
+
+         .bttd{background-color: #f30c0c; margin-top: 10px;}
+
+         .container3{
+            /* background-color: rgb(255 255 255); */
+            display: flex;
+            padding: 100px 0;
+            position: relative;
+            /* border: 1px solid black; */
+        }
+        .container3>.left{
+            width: 40%;
+            font-size: 30px;
+            font-weight: bolder;
+            align-items: center;
+            display: flex;
+            background-color: yellow;
+            /* border: 1px solid blue; */
+
+        }
+        .container3 img{
+            width: 300px;
+            height: 350px;
+            position: absolute; 
+            /* border: 1px solid red; */
+            left: 30%;
+            bottom: 15%;
+        }
+       
+        /* .container3 .left h2 .container3 .left p{ color: black;} */
+        .container3 .right { width: 50%;
+           padding-left: 2oopx;
+           margin-left: 100px;
+        }
+         .container3 .right *{ color: black;}
+         .right .sub-right
+         {
+            display: flex;
+         justify-content: space-around;
+          margin: 20px;}
+
+          .main{ 
+            /* border: 1px solid brown; */
+          background-color: #48989e;}
+
+
+
+         </style>
+         </head>
+         <body>
+<div class="main">
+            
+<div class="navbar">
+    <h1>FOODIE TASTE</h1>
+                     <UL>
+                         <li>HOME</li> 
+                         <li>ABOUT</li>
+                         <li>SERVICE</li>
+                         <li>MENU</li>
+                     </UL>
+                     <button class="btn"  value="button">Contact us</button>
+
+</div>
+<div class="top">
+        <div class="center">
+        <p class="flv" >Fresh Flavors<br></p><p><span>Made With Love</span></p>
+        </div>
+         <div class="take" >
+                 <button class="away">Take away</button>
+                 <button class="din" >Dine-in</button>   
+             <div class="form-container">
+                 <h3>Book a Menu</h3>
+                 <input type="number" class="form-field" placeholder="Person" >
+                 <input type="date" class="form-field" placeholder="Date" >
+                 <input type="time" class="form-field" placeholder="Time" >
+                <button class="sbmt">Submit</button>
+             </div>
+           
+         </div>
+       
+    </div> 
+    <div class="boxes">
+        <div class="boxA">
+            <div class="boxB">
+            <p class="fbk" >Welcome to the best</p>
+            <p class="feed">Resturant in the Town</p>
+            <p class="fdbk">Our service is to satisfy your food taste bud</p>
+               <p> your feed back is our source of Oxygen for survive</p><br>
+            <input type="button" id="ffbk" value="FEED BACK">
+            </div>
+        </div>
+    </div>  
+    <div id="cardB">
+        <div id="td">
+        <img src="images/ffork.jpg" >
+         <h5>The best Dine-in for you
+        A plesant atmosphere for family Dine-in</h5>
+        <button class="bttd">book your seat now</button>
+        </div>
+        <div id="td">
+         <img src="images/ccap.jpg" >
+         <h5>The best Chef of town 
+         at your service for your taste bud</h5>
+         <button class="bttd">Examine our Food</button>
+        </div>
+        <div id="td">
+        <img src="images/tkway.png" >
+        <h5> For your Friends and Family 
+        Dine-in and Takeaway both services available</h5>
+         <button class="bttd">Order your take away</button>
+        </div>
+ </div>    
+ <div class="container3">
+    <div class="left">
+        <h4 style="margin-left: 55%;
+        z-index: 1;">Best Resturant <br>FOODIE<br>TASTE</h4>
+        </div>
+        <img src="images/pngimg.com - chef_PNG102.png" alt="">
+        <div class="right">
+            <h2 style="margin: 10px 0;">Best in town</h2>
+            <p style="margin: 10px 0;">The satisfaction of your taste buds with food prepared by pioneers of cooking</p>
+            <div class="sub right">
+                <div> <h2 style="margin: 10px 0 ; font-weight: 900; font-size: 35px; text-align: left;"> 99+ </h2>
+                <h4>
+                    Best chef of town<br> at your services
+                </h4>
+            </div>
+            </div>
+        </div>
+
+    </div>
+</div>    
+</div> 
+</body>
+</html>
